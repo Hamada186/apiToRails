@@ -1,14 +1,24 @@
-# apiToRails
-Rails APIの練習
+# README
 
-Next.js と通信をして何かしらのAPI通信を行うバックエンドAPIを作成する。
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-作成する予定のAPIは、
-GET
-・テキスト送信
-・現在時刻を送信させる。
-・画像データのやり取り
-POST
-・ログの取得
+Things you may want to cover:
 
-あたりを試してみようと思う。
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
