@@ -5,6 +5,12 @@ Rails.application.routes.draw do
     end
   end
 
+  namespace :api do
+    namespace :v2 do
+      resources :articles
+    end
+  end
+
   resources :articles
   root to: 'articles#index'
 end

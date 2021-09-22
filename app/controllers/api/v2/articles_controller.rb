@@ -1,9 +1,11 @@
 module Api
-  module V1
+  module V2
 
     class ArticlesController < ApplicationController
+
       def index
-        render json: {"message":"test articlaaaes"}
+        getApi = GetApi.new()
+        render json: getApi.get()
       end
     end
   end
